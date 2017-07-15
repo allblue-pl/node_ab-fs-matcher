@@ -26,7 +26,7 @@ class FSMatcher
 
         let file_matcher_promises = [];
         for (let i = 0; i < anymatch_patterns.length; i++) {
-            file_matcher_promises.push(fileMatcher.addFilePaths_Promise(
+            file_matcher_promises.push(self._addFilePaths_Promise(
                     fs_paths, anymatch_patterns[i]));
         }
 
