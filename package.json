@@ -1,6 +1,6 @@
 {
   "name": "ab-fs-matcher",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "type": "module",
   "description": "Static file matcher that find files using anymatch pattern.",
   "main": "index.js",
@@ -36,6 +36,7 @@
     "readdirp": "5.0.*"
   },
   "devDependencies": {
-    "@types/node": "25.6.*"
+    "@types/node": "25.6.*",
+    "typescript": "^6.0.2"
   }
 }

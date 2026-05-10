@@ -5,8 +5,7 @@ import anymatch from "anymatch";
 import globParent from "glob-parent";
 import readdirp from "readdirp";
 
-
-export default class fsMatcher_Class {
+export class abFSMatcher_Class {
     getPaths(anymatchPatterns: Array<string>, callback: (error: Error|null, 
             fsPaths: Array<string>) => void): void {
         (async () => {
@@ -82,5 +81,5 @@ export default class fsMatcher_Class {
     }
 
 }
-
-module.exports = new fsMatcher_Class();
+const abFSMatcher = new abFSMatcher_Class();
+export default abFSMatcher;
