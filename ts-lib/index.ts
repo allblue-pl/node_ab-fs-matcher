@@ -1,7 +1,7 @@
 import fs from "node:fs";
 import path from "node:path";
 
-import anymatch from "anymatch";
+import { abMatch as anymatch } from "ab-matcher";
 import globParent from "glob-parent";
 import readdirp from "readdirp";
 

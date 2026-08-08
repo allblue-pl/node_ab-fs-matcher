@@ -31,12 +31,11 @@
   "homepage": "https://github.com/allblue-pl/node_ab-fs-matcher#readme",
   "dependencies": {
     "ab-log": "1.1.*",
-    "anymatch": "3.1.*",
+    "ab-matcher": "0.0.*",
     "glob-parent": "6.0.*",
     "readdirp": "5.0.*"
   },
   "devDependencies": {
-    "@types/node": "25.6.*",
-    "typescript": "^6.0.2"
+    "@types/node": "25.6.*"
   }
 }
